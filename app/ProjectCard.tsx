@@ -35,7 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, tags, lin
         <div className="flex items-start justify-between">
           <h3 className="text-3xl font-bold">{title}</h3>
           <a href={link} className="text-sm hover:text-blue-600 transition">
-            view →
+            view
           </a>
         </div>
         <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">{description}</p>

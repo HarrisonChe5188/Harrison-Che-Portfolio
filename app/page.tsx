@@ -6,25 +6,31 @@ import AARNChainring from "./chainring";
 export default function Home() {
   const projects = [
     {
-      title: "Project Name",
+      title: "Autoqueue",
       description: "A full-stack application built with precision and intent.",
       tags: ["React", "Node.js", "PostgreSQL"],
       link: "#",
     },
     {
-      title: "Another Build",
+      title: "Coghead",
       description: "Exploring the intersection of UX design and backend performance.",
       tags: ["Next.js", "API Design", "Infra"],
       link: "#",
     },
     {
-      title: "Third Project",
+      title: "Redstone Rewired",
       description: "From concept to production—full-stack ownership.",
       tags: ["TypeScript", "System Design", "Scale"],
       link: "#",
     },
     {
-      title: "Experimental",
+      title: "PicoWifiAccessPoint",
+      description: "Pushing boundaries of what's possible in the browser.",
+      tags: ["React", "Canvas", "Performance"],
+      link: "#",
+    },
+    {
+      title: "Steam Review Sentiment Analyzer",
       description: "Pushing boundaries of what's possible in the browser.",
       tags: ["React", "Canvas", "Performance"],
       link: "#",
@@ -43,7 +49,7 @@ export default function Home() {
         @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
         
         body {
-          font-family: 'Space Mono', monospace;
+          font-family: 'monaco', monospace;
         }
       `}</style>
 
@@ -53,8 +59,8 @@ export default function Home() {
 
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-40 backdrop-blur-md bg-white/80 dark:bg-black/80 border-b border-zinc-200 dark:border-zinc-800">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-sm tracking-wider">HC</div>
+        <div className="max-w-6xl mx-auto px-6 py-4 flex item-right justify-between">
+          <div className="text-sm tracking-wider">车向东 chē xiàng dōng </div>
           <div className="flex gap-8 items-center text-sm">
             <a href="#work" className="hover:text-blue-600 transition">work</a>
             <a href="#about" className="hover:text-blue-600 transition">about</a>
@@ -79,15 +85,19 @@ export default function Home() {
                 <span>full-stack engineer</span>
                 <span className="text-zinc-300 dark:text-zinc-700">•</span>
                 <span>boston</span>
+                <span className="text-zinc-300 dark:text-zinc-700">•</span>
+
+                <span>new york</span>
+
               </div>
             </div>
 
             <div className="max-w-2xl space-y-6 text-lg text-zinc-600 dark:text-zinc-400">
               <p>
-                I build products with the same philosophy I apply to riding fixed-gear: <span className="text-black dark:text-white font-medium">no coasting, no unnecessary complexity</span>. Direct connection between input and output.
+                nigga
               </p>
               <p>
-                Full-stack developer who ships end-to-end — from database schema to pixel-perfect UI. Currently focused on performance-critical web applications.
+                
               </p>
             </div>
 

@@ -9,7 +9,7 @@ export default function AARNChainring() {
         fixed 
         top-1/2 left-1/2 
         -translate-x-1/2 -translate-y-1/2
-        w-[1000px]      /* adjust size */
+        w-[1200px]      /* adjust size */
         opacity-20 
         pointer-events-none
       "
@@ -22,3 +22,12 @@ export default function AARNChainring() {
     />
   );
 }
+
+// autoqueue
+// general bike calculators 
+  // skidpatch calculator
+  // gear inch calculator
+  // gear development calculator
+  // rollout calculator
+  // gain ratio calculator
+// Redstone rewired

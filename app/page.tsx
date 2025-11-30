@@ -61,6 +61,16 @@ export default function Home() {
           <h2 className="text-5xl font-bold tracking-tight mb-16">Selected Work</h2>
           <div className="space-y-24 mb-24">
             <ProjectCard
+              title="Coghead"
+              description="A calculator web app for fixie foos."
+              tags={["React", "Next.js", "Node.js", "TypeScript"]}
+              link="coghead"
+              imageSrc="/filler.png" // <-- public folder path
+            />
+          </div>
+          
+          <div className="space-y-24 mb-24">
+            <ProjectCard
               title="AutoQueue"
               description="A web app to generate Spotify playlists from songs within Youtube playlists."
               tags={["Python", "React", "Flask", "PostgreSQL", "TypeScript", "Spotify API"]}
@@ -69,15 +79,7 @@ export default function Home() {
             />
           </div>
 
-          {/* <div className="space-y-24 mb-24">
-            <ProjectCard
-              title="Coghead"
-              description="A calculator web app for fixie foos."
-              tags={["React", "Next.js", "Node.js", "TypeScript"]}
-              link="coghead"
-              imageSrc="/filler.png" // <-- public folder path
-            />
-          </div> */}
+          
 
           <div className="space-y-24 mb-24">
             <ProjectCard

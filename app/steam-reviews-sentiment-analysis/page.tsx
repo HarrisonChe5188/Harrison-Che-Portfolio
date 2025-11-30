@@ -4,7 +4,7 @@ import DocSidebar from "../components/sidebar";
 export default function SteamReviewsSentimentAnalysis() {
   return (
     <div className="relative min-h-screen text-black dark:text-white">
-      <div className="relative z-10 mx-auto flex items-start px-6 sm:px-8 lg:px-20 py-24 max-w-screen-xl">
+      <div className="relative z-10 mx-auto flex px-6 sm:px-8 lg:px-20 py-24 max-w-screen-xl">
         
         {/* ─────────── Sidebar ─────────── */}
         <DocSidebar
@@ -64,19 +64,19 @@ export default function SteamReviewsSentimentAnalysis() {
 
             {/* KEEPING IMAGE REFERENCES */}
             <div>
-              <img src="/assets/topN.png" alt="Top words for Naive Bayes" className="w-full rounded-lg my-6" />
+              <img src="/steam/topN.png" alt="Top words for Naive Bayes" className="w-full rounded-lg my-6" />
             </div>
 
             <p>Additional visualizations such as word clouds and bar charts were generated:</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-              <img src="/assets/payday2_all_wordcloud.png" />
-              <img src="/assets/Payday2_allwords_bar.png" />
+              <img src="/steam/payday2_all_wordcloud.png" />
+              <img src="/steam/Payday2_allwords_bar.png" />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-              <img src="/assets/payday2_adj.png" />
-              <img src="/assets/payday2_adj_bar.png" />
+              <img src="/steam/payday2_adj.png" />
+              <img src="/steam/payday2_adj_bar.png" />
             </div>
           </section>
 
@@ -99,8 +99,8 @@ export default function SteamReviewsSentimentAnalysis() {
             <h2 className="text-3xl font-semibold mt-12">Visualizations</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-              <img src="/assets/median_rev_len_vs_vote_status.png" />
-              <img src="/assets/scatter.png" />
+              <img src="/steam/median_rev_len_vs_vote_status.png" />
+              <img src="/steam/scatter.png" />
             </div>
 
             <p>
@@ -109,8 +109,8 @@ export default function SteamReviewsSentimentAnalysis() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-              <img src="/assets/2dSNE.png" />
-              <img src="/assets/3dSNE.png" />
+              <img src="/steam/2dSNE.png" />
+              <img src="/steam/3dSNE.png" />
             </div>
           </section>
 
@@ -122,17 +122,18 @@ export default function SteamReviewsSentimentAnalysis() {
               though text art confused it due to uniform symbols.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
-              <img src="/assets/layer_7_sample_sentence.jpg" />
-              <img src="/assets/review_art.jpg" />
+            <div className="flex gap-6 my-6 items-start">
+              <img src="/steam/layer_7_sample_sentence.jpg" className="w-3/4 max-w-s object-contain" />
+              <img src="/steam/review_art.jpg" className="rounded-lg object-contain" />
             </div>
+
             <p>
               Here is a classification matrix of the BERT model on a random sample of 10000 reviews (the classification matrix took extremely long to load) and some performance metrics. 
               Unfortunately, it seems that the model does not handle negative reviews very well. That is, there are many false positives in the confusion matrix and the model appears to
               guess that the review is positive almost all of the time. There may be some room for optimism, as the testing accuracy on the whole testing set and f1-score were 0.938 and 0.967 respectively.
             </p>
             <div className="my-6">
-              <img src="/assets/bert_confusion_matrix.jpg" className="w-1/2" />
+              <img src="/steam/bert_confusion_matrix.jpg" className="w-1/2" />
             </div>
           </section>
 

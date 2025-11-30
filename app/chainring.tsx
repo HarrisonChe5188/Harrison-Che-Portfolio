@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function AARNChainring() {
   return (
     <motion.img
-      src="/aarn-ring.png"
+      src="HarrisonChe5188.github.io/aarn-ring.png"
       alt="AARN 49T Chainring"
       className="
         fixed 

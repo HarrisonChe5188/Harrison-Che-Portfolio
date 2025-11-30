@@ -8,19 +8,19 @@ export default function Footer() {
           <div>© {new Date().getFullYear()} Harrison Che</div>
           <div className="flex gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/HarrisonChe5188"
               className="hover:text-zinc-900 dark:hover:text-zinc-100 transition"
             >
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/harrison-che-8a2494209/"
               className="hover:text-zinc-900 dark:hover:text-zinc-100 transition"
             >
               LinkedIn
             </a>
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:harrisonche6@gmail.com"
               className="hover:text-zinc-900 dark:hover:text-zinc-100 transition"
             >
               Email

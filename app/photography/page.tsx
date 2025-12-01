@@ -35,8 +35,9 @@ export default function Photography() {
         </h1>
 
         <p className="text-center text-zinc-600 dark:text-zinc-400 mb-12 max-w-2xl mx-auto">
-          A selection of my personal photography.
+          All shot on my mom's Olympus FE-5000.
         </p>
+        
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {images.map((src, idx) => (
